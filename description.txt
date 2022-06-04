@@ -6,3 +6,7 @@
 1.d. ingress-nginx setup
     - mac: code /etc/hosts. windows: C:\Windows\System32\Drivers\etc\hosts
     - open chrome at ticketing.dev/api/users/currentuser and type thisisunsafe
+
+*************************
+118-129 - Leveraging a Cloud Enviroment for Development
+skipped
