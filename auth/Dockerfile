@@ -8,5 +8,5 @@ COPY . .
 CMD ["npm", "start"]
 
 # docker build -t dtaldockerid/auth .
-# docker tag dtaldockerid/auth dtaldockerid/dockerhub:auth
-# docker push dtaldockerid/dockerhub:auth
+# docker tag dtaldockerid/auth dtaldockerid/ticketapp:auth
+# docker push dtaldockerid/ticketapp:auth

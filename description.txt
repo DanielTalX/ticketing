@@ -15,3 +15,11 @@ skipped
 130-148 - Respose Normalization Strategies
 - creating route handlers
 - validation and error handling
+
+*************************
+149-164 - DB Management and modeling
+- creating mongodb in k8s
+- TypeScript and Mongoose cooperation
+- userSchema, UserModel, UserDoc
+- Mongoose statics properties and pre-save hooks
+- adding password hashing
