@@ -10,3 +10,8 @@
 *************************
 118-129 - Leveraging a Cloud Enviroment for Development
 skipped
+
+*************************
+130-148 - Respose Normalization Strategies
+- creating route handlers
+- validation and error handling
