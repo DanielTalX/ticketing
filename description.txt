@@ -1,0 +1,8 @@
+*************************
+105-117
+1.a. auth service setup
+1.b. auth k8s setup
+1.c. adding skaffold
+1.d. ingress-nginx setup
+    - mac: code /etc/hosts. windows: C:\Windows\System32\Drivers\etc\hosts
+    - open chrome at ticketing.dev/api/users/currentuser and type thisisunsafe
