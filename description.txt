@@ -56,6 +56,7 @@ skipped
 209-246 - Integrating a Server-Side-Rendered React App
 209-216 - starting the react next-js app
 - starting the react app - create client folder
-- npm install react react-dom next bootstrap
+- npm install react react-dom next bootstrap axios
 - building and running Next-JS image in k8s
 - adding global CSS
+217-223 - adding signup page and useRequest hook
