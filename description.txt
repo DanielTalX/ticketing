@@ -12,7 +12,7 @@
 skipped
 
 *************************
-130-148 - Respose Normalization Strategies
+130-148 - Response Normalization Strategies
 - creating route handlers
 - validation and error handling
 
@@ -23,3 +23,18 @@ skipped
 - userSchema, UserModel, UserDoc
 - Mongoose statics properties and pre-save hooks
 - adding password hashing
+
+*************************
+165-190 - Authentication Strategies and Options
+165-180
+- Authentication Strategies
+    - one auth service responsibe
+    vs
+    - each ms responsibe for verify user token
+- adding Session Support
+- generating a JWT
+- securely storing secrets with kubernetes:
+    kubectl create secret generic jwt-secret --from-literal=JWT_KEY=jwt_secret_key
+- creating and accessing secrets
+- accessing env variables in a pod
+- formatting (and removing) JSON properties
