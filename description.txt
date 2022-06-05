@@ -42,3 +42,12 @@ skipped
 - sign-in, sign-out and currentuser routes
 - common middlewares: validate-request, current-user, require-auth
 - augmenting Type Definitions
+
+*************************
+191-208 - Testing Isoloated Microservices
+- Testing Architecture
+- index to app refactor
+- new dependencies: npm install --save-dev @types/jest @types/supertest jest ts-jest supertest mongodb-memory-server
+- test enviroment setup
+- adding unit tests
+- handling cookies during testing
