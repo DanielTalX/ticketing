@@ -44,10 +44,18 @@ skipped
 - augmenting Type Definitions
 
 *************************
-191-208 - Testing Isoloated Microservices
+191-208 - Testing Isolated Microservices
 - Testing Architecture
 - index to app refactor
 - new dependencies: npm install --save-dev @types/jest @types/supertest jest ts-jest supertest mongodb-memory-server
 - test enviroment setup
 - adding unit tests
 - handling cookies during testing
+
+*************************
+209-246 - Integrating a Server-Side-Rendered React App
+209-216 - starting the react next-js app
+- starting the react app - create client folder
+- npm install react react-dom next bootstrap
+- building and running Next-JS image in k8s
+- adding global CSS
