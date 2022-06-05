@@ -37,4 +37,8 @@ skipped
     kubectl create secret generic jwt-secret --from-literal=JWT_KEY=jwt_secret_key
 - creating and accessing secrets
 - accessing env variables in a pod
-- formatting (and removing) JSON properties
+- formatting (and removing) JSON properties4
+181-190
+- sign-in, sign-out and currentuser routes
+- common middlewares: validate-request, current-user, require-auth
+- augmenting Type Definitions
