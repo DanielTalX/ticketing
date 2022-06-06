@@ -44,10 +44,30 @@ skipped
 - augmenting Type Definitions
 
 *************************
-191-208 - Testing Isoloated Microservices
+191-208 - Testing Isolated Microservices
 - Testing Architecture
 - index to app refactor
 - new dependencies: npm install --save-dev @types/jest @types/supertest jest ts-jest supertest mongodb-memory-server
 - test enviroment setup
 - adding unit tests
 - handling cookies during testing
+
+*************************
+209-246 - Integrating a Server-Side-Rendered React App
+209-216 - starting the react next-js app
+- starting the react app - create client folder
+- npm install react react-dom next bootstrap axios
+- building and running Next-JS image in k8s
+- adding global CSS
+217-223 - adding signup page and useRequest hook
+224-236
+- fetching data during SSR
+- cross namespace service communication
+    - kubectl get namespace
+    - kubectl get services -n ingress-nginx => ingress-nginx-controller
+    - http://ingress-nginx.ingress-nginx-controller.svc.cluster.local 
+        => addional option is to use (and create) external name service http://ingress-nginx-srv
+- a reusable api client with correct host and cookies
+237-246
+- building signin signout header components
+- moving getInitialProps
