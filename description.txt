@@ -71,3 +71,22 @@ skipped
 237-246
 - building signin signout header components
 - moving getInitialProps
+
+*************************
+247-260 - Code Sharing and Reuse between services
+- publishing npm modules
+    - sign in to https://www.npmjs.com/
+    - create a new organization (public)
+- project common setup
+    - mkdir common; cd common; npm init -y;
+    - git init; git add .; git commit -m "initial commit";
+    - npm login
+    - npm publish --access public
+    - npm install typescript del-cli --save-dev
+    - npm install express express-validator  cookie-session jsonwebtoken @types/cookie-session @types/express @types/jsonwebtoken
+    - tsc
+    - npm run pub
+
+"files": [
+    "build/**/*"
+]
