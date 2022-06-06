@@ -60,3 +60,11 @@ skipped
 - building and running Next-JS image in k8s
 - adding global CSS
 217-223 - adding signup page and useRequest hook
+224-236
+- fetching data during SSR
+- cross namespace service communication
+    - kubectl get namespace
+    - kubectl get services -n ingress-nginx => ingress-nginx-controller
+    - http://ingress-nginx.ingress-nginx-controller.svc.cluster.local 
+        => addional option is to use (and create) external name service http://ingress-nginx-srv
+- a reusable api client with correct host and cookies
