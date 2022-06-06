@@ -83,10 +83,10 @@ skipped
     - npm login
     - npm publish --access public
     - npm install typescript del-cli --save-dev
-    - npm install express express-validator  cookie-session jsonwebtoken @types/cookie-session @types/express @types/jsonwebtoken
+    - npm install express express-validator cookie-session jsonwebtoken @types/cookie-session @types/express @types/jsonwebtoken
     - tsc
     - npm run pub
-
-"files": [
-    "build/**/*"
-]
+    - in auth: npm install @danitaltech-dev/ticketing-common
+    - in auth: npm update @danitaltech-dev/ticketing-common
+    - verify update by: kubectl get pods; kubectl exec -it auth-depl-blabla sh; cd node_modules/@danitaltech-dev/ticketing-common; ls; cat package.json; exit
+kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
