@@ -68,3 +68,6 @@ skipped
     - http://ingress-nginx.ingress-nginx-controller.svc.cluster.local 
         => addional option is to use (and create) external name service http://ingress-nginx-srv
 - a reusable api client with correct host and cookies
+237-246
+- building signin signout header components
+- moving getInitialProps
