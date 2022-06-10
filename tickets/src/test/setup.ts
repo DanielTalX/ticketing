@@ -12,7 +12,7 @@ let mongo: any;
 
 beforeAll(async () => {
     process.env.JWT_KEY = 'jest_jwt_secret_key';
-    // process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+    process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
     mongo = new MongoMemoryServer();
     await mongo.start();
@@ -36,7 +36,7 @@ afterAll(async () => {
 global.signin = () => {
     // Build a JWT payload.  { id, email }
     const payload = {
-      id: '1lk24j124l',
+      id: new mongoose.Types.ObjectId().toHexString(),
       email: 'test@test.com',
     };
   
@@ -53,5 +53,5 @@ global.signin = () => {
     const base64 = Buffer.from(sessionJSON).toString('base64');
   
     // return a string thats the cookie with the encoded data
-    return [`express:sess=${base64}`];
+    return [`session=${base64}`];
   };

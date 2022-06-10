@@ -94,4 +94,6 @@ kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future versi
 *************************
 257-282 CRUD tickets server
 257-262 - tickets server setup
-263-272 - Test-First Approach
+263-282 - Test-First Approach
+    - index, create, show and update routes
+    - permission checking
