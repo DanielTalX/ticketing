@@ -73,7 +73,7 @@ skipped
 - moving getInitialProps
 
 *************************
-247-260 - Code Sharing and Reuse between services
+247-256 - Code Sharing and Reuse between services
 - publishing npm modules
     - sign in to https://www.npmjs.com/
     - create a new organization (public)
@@ -90,3 +90,10 @@ skipped
     - in auth: npm update @danitaltech-dev/ticketing-common
     - verify update by: kubectl get pods; kubectl exec -it auth-depl-blabla sh; cd node_modules/@danitaltech-dev/ticketing-common; ls; cat package.json; exit
 kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
+
+*************************
+257-282 CRUD tickets server
+257-262 - tickets server setup
+263-282 - Test-First Approach
+    - index, create, show and update routes
+    - permission checking
