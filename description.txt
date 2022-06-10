@@ -127,3 +127,6 @@ https://www.npmjs.com/package/node-nats-streaming
 - The Listener Abstarct class
 - Extending the Listener
 - Refactor
+- Subjects Enum & Custom event interface
+- enforcing Listener Subjects & Data Types
+- Custom Publisher
