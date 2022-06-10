@@ -119,4 +119,11 @@ https://www.npmjs.com/package/node-nats-streaming
 - core concurrency issues!!
 - solving concurrency issues ?? => (apache kafka better)
 - Events Redelivery and Durable Subscriptions
-    
+
+
+*************************
+306-322 - Connecting to NATS in a NodeJS World
+- Reusable NATS Listeners
+- The Listener Abstarct class
+- Extending the Listener
+- Refactor
