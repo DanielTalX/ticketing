@@ -130,4 +130,4 @@ https://www.npmjs.com/package/node-nats-streaming
 - Subjects Enum & Custom event interface
 - enforcing Listener Subjects & Data Types
 - Custom Publisher
-- moving Reusable NATS to common module
+- moving Reusable NATS to common module and publish
