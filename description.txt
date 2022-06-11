@@ -97,3 +97,37 @@ kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future versi
 263-282 - Test-First Approach
     - index, create, show and update routes
     - permission checking
+
+*************************
+283-305 - NATS Streaming Server - An Event Bus Implementation
+https://docs.nats.io/
+https://hub.docker.com/_/nats-streaming
+https://www.npmjs.com/package/node-nats-streaming
+
+- creating a NATS Streaming Deployment
+- building a NATS Test project
+    - npm install node-nats-streaming ts-node-dev typescript @types/node
+    - kubectl get pods
+    - kubectl port-forward nats-depl-_id_ 4222:4222
+    - npm run publish 
+    - kubectl port-forward nats-depl-_id_ 8222:8222
+        - localhost:8222/streaming
+        - localhost:8222/streaming/chanels?subs=1
+- publish events and listening for data
+- client id generation, queue groups, manual ack mode
+- client health checks, graceful client shutdown
+- core concurrency issues!!
+- solving concurrency issues ?? => (apache kafka better)
+- Events Redelivery and Durable Subscriptions
+
+
+*************************
+306-322 - Connecting to NATS in a NodeJS World
+- Reusable NATS Listeners
+- The Listener Abstarct class
+- Extending the Listener
+- Refactor
+- Subjects Enum & Custom event interface
+- enforcing Listener Subjects & Data Types
+- Custom Publisher
+- moving Reusable NATS to common module and publish
