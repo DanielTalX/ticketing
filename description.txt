@@ -131,3 +131,13 @@ https://www.npmjs.com/package/node-nats-streaming
 - enforcing Listener Subjects & Data Types
 - Custom Publisher
 - moving Reusable NATS to common module and publish
+
+*************************
+323-340 - Managing a NATS client
+- NatsWrapper - NATS client singleton
+- publishing ticket creation and ticket update
+- graceful shutdown
+- Handling Publish Failures
+    - only theoretical - using transaction database - no implementation!!!
+- fixing unit tests - for nats cooperation
+- NATS Env variables
