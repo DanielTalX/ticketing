@@ -141,3 +141,8 @@ https://www.npmjs.com/package/node-nats-streaming
     - only theoretical - using transaction database - no implementation!!!
 - fixing unit tests - for nats cooperation
 - NATS Env variables
+
+*************************
+341-368 - Cross-Service Data Replication In Action
+- The Orders ms
+- setup ordersMS - npm install, sacffolding, ingress
