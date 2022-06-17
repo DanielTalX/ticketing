@@ -146,3 +146,4 @@ https://www.npmjs.com/package/node-nats-streaming
 341-368 - Cross-Service Data Replication In Action
 - The Orders ms
 - setup ordersMS - npm install, sacffolding, ingress
+- create order status enum in common-module
